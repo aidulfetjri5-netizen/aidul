@@ -21,7 +21,7 @@
         <button @click="activeTab = 'team'"
           :class="{ 'bg-blue-500 text-white': activeTab === 'team', 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-200': activeTab !== 'team' }"
           class="px-4 py-2 rounded-lg transition duration-200">
-          Author
+          User
         </button>
       </div>
 
